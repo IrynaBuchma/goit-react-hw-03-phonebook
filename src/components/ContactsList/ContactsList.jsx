@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import css from './ContactsList.module.css';
-import ContactsItem from "./Contactsitem";
+import ContactsItem from "./ContactsItem";
 
 const ContactsList = ({ contacts, onDelete }) => (
         <ul className={css.list}>
